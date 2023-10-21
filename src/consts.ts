@@ -29,8 +29,8 @@ export const SOCIAL = [
 ] as const;
 
 export const PERSONAL_INFO = {
-  name: 'Ema Suriano',
-  title: "Ema Suriano's Art",
+  name: 'Nine Lives of Art',
+  title: "Nine Lives of Art",
   subtitle: 'A collection of my best work in one place',
   role: 'Digital Artist',
   contact: 'mailto:emanuel.suriano@gmail.com',
