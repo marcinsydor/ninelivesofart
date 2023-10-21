@@ -1,26 +1,27 @@
 ---
 import { Img } from 'astro-imagetools/components';
-import probe from 'probe-image-size';
+// import probe from 'probe-image-size';
 import Layout from '../layouts/Layout.astro';
 import Footer from '../components/Footer.astro';
 import { PERSONAL_INFO } from '../consts';
-import { getNotionItems } from '../utils';
+// tv import { getNotionItems } from '../utils';
 import images from '../images.json';
 
-// const notionItems = await getNotionItems({
+//const notionItems = await getNotionItems({
 //   auth: import.meta.env.NOTION_API_KEY,
 // });
 //
-// const images = await Promise.all(
-//   notionItems.map(async ({ plain_text }) => {
-//     const index = plain_text.lastIndexOf(' ');
-//     const label = plain_text.substring(0, index);
-//     const href = plain_text.substring(index + 1);
-//     const size = await probe(href);
+
+//const images = await Promise.all(
+//  notionItems.map(async ({ plain_text }) => {
+//    const index = plain_text.lastIndexOf(' ');
+//    const label = plain_text.substring(0, index);
+//    const href = plain_text.substring(index + 1);
+//    const size = await probe(href);
 //
-//     return { label, href, size };
-//   }),
-// );
+//    return { label, href, size };
+//  }),
+//);
 ---
 
 <Layout title={PERSONAL_INFO.title}>
