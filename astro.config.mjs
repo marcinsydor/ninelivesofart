@@ -5,5 +5,11 @@ import compress from 'astro-compress';
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [astroImageTools, tailwind(), compress()],
+  integrations: [astroImageTools, tailwind(), compress({
+			CSS: false,
+			HTML: true,
+			Image: true,
+			JavaScript: true,
+			SVG: true,
+		})],
 });
